@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="sharedjs"
+		module="sharedjs$sources_sjs0.6_2.11"
+		revision="0.1-SNAPSHOT"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
+		date="20170707083328"/>
+	<dependencies>
+		<module organisation="com.lihaoyi" name="autowire_sjs0.6_2.11">
+			<revision name="0.2.6" status="release" pubdate="20161107191034" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/ajax" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3496" time="0" location="/home/elyphas/.ivy2/cache/com.lihaoyi/autowire_sjs0.6_2.11/ivy-0.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/autowire_sjs0.6_2.11/0.2.6/autowire_sjs0.6_2.11-0.2.6.pom"/>
+				<caller organisation="sharedjs" name="sharedjs$sources_sjs0.6_2.11" conf="compile, runtime" rev="0.2.6" rev-constraint-default="0.2.6" rev-constraint-dynamic="0.2.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="autowire_sjs0.6_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8235" time="0" location="/home/elyphas/.ivy2/cache/com.lihaoyi/autowire_sjs0.6_2.11/srcs/autowire_sjs0.6_2.11-0.2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/autowire_sjs0.6_2.11/0.2.6/autowire_sjs0.6_2.11-0.2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-library_2.11">
+			<revision name="0.6.18" status="release" pubdate="20170627080920" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.18/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2998" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-library_2.11/ivy-0.6.18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.18/scalajs-library_2.11-0.6.18.pom"/>
+				<caller organisation="sharedjs" name="sharedjs$sources_sjs0.6_2.11" conf="compile, runtime" rev="0.6.18" rev-constraint-default="0.6.18" rev-constraint-dynamic="0.6.18" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.18/"/>
+				<artifacts>
+					<artifact name="scalajs-library_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="149466" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-library_2.11/srcs/scalajs-library_2.11-0.6.18-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.18/scalajs-library_2.11-0.6.18-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.suzaku" name="boopickle_sjs0.6_2.11">
+			<revision name="1.2.6" status="release" pubdate="20170125031424" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ochrons/boopickle" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3377" time="0" location="/home/elyphas/.ivy2/cache/io.suzaku/boopickle_sjs0.6_2.11/ivy-1.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/suzaku/boopickle_sjs0.6_2.11/1.2.6/boopickle_sjs0.6_2.11-1.2.6.pom"/>
+				<caller organisation="sharedjs" name="sharedjs$sources_sjs0.6_2.11" conf="compile, runtime" rev="1.2.6" rev-constraint-default="1.2.6" rev-constraint-dynamic="1.2.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="boopickle_sjs0.6_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25452" time="0" location="/home/elyphas/.ivy2/cache/io.suzaku/boopickle_sjs0.6_2.11/srcs/boopickle_sjs0.6_2.11-1.2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/suzaku/boopickle_sjs0.6_2.11/1.2.6/boopickle_sjs0.6_2.11-1.2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.11" status="release" pubdate="20170413145043" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2829" time="0" location="/home/elyphas/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.11/scala-reflect-2.11.11.pom"/>
+				<caller organisation="sharedjs" name="sharedjs$sources_sjs0.6_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="565435" time="0" location="/home/elyphas/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.11/scala-reflect-2.11.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.11" status="release" pubdate="20170413145031" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="3">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/home/elyphas/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11.pom"/>
+				<caller organisation="sharedjs" name="sharedjs$sources_sjs0.6_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911961" time="0" location="/home/elyphas/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

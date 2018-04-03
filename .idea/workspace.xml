@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/shared/src/main/scala/spatutorial/shared/TodoItem.scala" line="2" mnemonic="8" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68d6cc36-b5ae-4aa7-a67b-1630b2289be4" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/client/target/" />
+    <ignored path="$PROJECT_DIR$/server/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.js/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.jvm/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/client/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/client/project/target/" />
+    <ignored path="$PROJECT_DIR$/server/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/server/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.js/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.js/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.jvm/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/shared/.jvm/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sicapnewv2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="frmPartida.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmPartida.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="52" column="131" selection-start-line="52" selection-start-column="130" selection-end-line="52" selection-end-column="131" />
+              <folding>
+                <element signature="e#35#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainMenu.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/MainMenu.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding>
+                <element signature="e#36#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bootstrap.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/components/Bootstrap.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="683">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/scala/controllers/Application.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.conf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../quitar/react-akkafsm/Main.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Programa</find>
+      <find>EnviarAlma</find>
+      <find>enviarAlmacen</find>
+      <find>enviar</find>
+      <find>aprobar</find>
+      <find>Pedido</find>
+      <find>case class Pedido</find>
+      <find>Almacen</find>
+      <find>2017</find>
+      <find>Datos</find>
+      <find>Dato</find>
+      <find>Dat</find>
+      <find>2018</find>
+      <find>Change</find>
+      <find>7</find>
+      <find>editar</find>
+      <find>ANTONIO</find>
+      <find>BERNARDO</find>
+      <find>ADQUISICION</find>
+      <find>usu</find>
+      <find>imprimi</find>
+      <find>Logg</find>
+      <find>iva_Monto</find>
+      <find>FRANCE</find>
+      <find>QryPedidoDatosGrales</find>
+      <find>imprimir</find>
+      <find>usuarios</find>
+      <find>StateTimeout</find>
+      <find>Props</find>
+      <find>Parti</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Partida</replace>
+      <replace>&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/SeguimientoHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/RptSolicPagoHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/QryDetPedidosHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/PrintSolicitudPagoHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/PrecioReferenciaHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/PedidosHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/PartidaHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/PartidaAnexoHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/OficioPresupuestoHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/OficinaHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/LicitantesHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/DictamenHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/DetSolicitudPagoHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/DescripcionCompraHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/DatosGralesPedidoHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/DatosGralesHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/CalendarioHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/CDiaInhabilHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/DetPedidosHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/services/SPACircuit.scala" />
+        <option value="$PROJECT_DIR$/../OrderApproved/server/src/main/scala/postg/CAprobar.scala" />
+        <option value="$PROJECT_DIR$/../OrderApproved/server/src/main/scala/postg/CPedido.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/postg/CDetPedAlmacen.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/postg/CDetPed.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/postg/CPedido.scala" />
+        <option value="$PROJECT_DIR$/shared/src/main/scala/spatutorial/shared/Api.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/services/ApiService.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/postg/CAprobar.scala" />
+        <option value="$PROJECT_DIR$/shared/src/main/scala/spatutorial/shared/PedidoType.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/EnviarAlmacenHandler.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/postg/CPedidoEnviarAlmacen.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/UsuariosHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmLogear.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmListBienes.scala" />
+        <option value="$USER_HOME$/hostSicap/qrySQL/TransparenciaDetails.sql" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/components/rptMasterDetails.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmPedido.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/CatArticulosHandler.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmDatosGrales.scala" />
+        <option value="$PROJECT_DIR$/../react-akkafsm/Main.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmArticulo.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmPrograma.scala" />
+        <option value="$PROJECT_DIR$/../quitar/react-akkafsm/Main.scala" />
+        <option value="$PROJECT_DIR$/shared/src/main/scala/spatutorial/shared/TodoItem.scala" />
+        <option value="$PROJECT_DIR$/project/Settings.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/SPAMain.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmPartida.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/MainMenu.scala" />
+        <option value="$PROJECT_DIR$/client/src/main/scala/spatutorial/client/components/Bootstrap.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/controllers/Application.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/application.conf" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="26" />
+    <option name="width" value="1920" />
+    <option name="height" value="992" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>General</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fsm-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fsm-react" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.splitter.proportion" value="0.22510232" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+      <module name="" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="consoleArgs" value="-usejavacp" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Scala Console.Scala Console" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="sicap" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="sicap" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="client" />
+                <option name="path" value="$PROJECT_DIR$/client" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="server" />
+                <option name="path" value="$PROJECT_DIR$/server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJS" />
+                <option name="path" value="$PROJECT_DIR$/shared/.js" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJVM" />
+                <option name="path" value="$PROJECT_DIR$/shared/.jvm" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sicap-sources" />
+                <option name="path" value="$PROJECT_DIR$/shared" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sicap-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="client-build" />
+                <option name="path" value="$PROJECT_DIR$/client/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="server-build" />
+                <option name="path" value="$PROJECT_DIR$/server/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJS-build" />
+                <option name="path" value="$PROJECT_DIR$/shared/.js/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJVM-build" />
+                <option name="path" value="$PROJECT_DIR$/shared/.jvm/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6091057819000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="910282219" />
+        <entry key="$PROJECT_DIR$/project/Settings.scala" value="4129793025" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="3801438840" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="2419114720" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-1" width="1922" height="1008" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="sbt" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214136" side_tool="true" weight="0.2740999" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43126386" visible="true" weight="0.16145833" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="11" weight="0.3292683" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.14" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2524013" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" sideWeight="0.56873614" side_tool="true" weight="0.21510416" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.33566433" />
+      <window_info anchor="right" id="SBT" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.29741862" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49785867" weight="0.17059484" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../OrderApproved/client/src/main/scala/spatutorial/client/modules/frmAprobar.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="60" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/ProgramaHandler.scala" />
+    <entry file="file://$PROJECT_DIR$/../OrderApproved/server/src/main/scala/postg/CDetPed.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/CDetPedido.scala" />
+    <entry file="file://$PROJECT_DIR$/../OrderApproved/server/src/main/scala/postg/CAprobar.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/CPedido_toAlmacen.scala" />
+    <entry file="file://$PROJECT_DIR$/../OrderApproved/server/src/main/scala/postg/CPedido.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OrderApproved/shared/src/main/scala/spatutorial/shared/TodoItem.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/CArticulo.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/CDetPed_toAlmacen.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/CDetPedAlmacen.scala" />
+    <entry file="file://$PROJECT_DIR$/../OrderApproved/server/src/main/scala/postg/CDetPedAlmacen.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/PedidosHandler.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/CDetPed.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/services/ApiService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="66" column="70" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/CPedidoAlmacen.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/CPedidoEnviarAlmacen.scala" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/EnviarAlmacenHandler.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/CPedido.scala" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/components/rptMasterDetails.scala-2" />
+    <entry file="file://$PROJECT_DIR$/../react-akkafsm/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/UsuariosHandler.scala" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/services/SPACircuit.scala" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmListBienes.scala" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/CQryPedidoDatosGrales.scala" />
+    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/spatutorial/shared/PedidoType.scala" />
+    <entry file="file://$USER_HOME$/hostSicap/qrySQL/ReporteXPartidaCpBerna.sql" />
+    <entry file="file://$USER_HOME$/hostSicap/qrySQL/TransparenciaDetails.sql" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmPedido.scala" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/components/rptMasterDetails.scala" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/actionhandlers/CatArticulosHandler.scala" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/components/rptContrato.scala" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmLogear.scala" />
+    <entry file="file://$PROJECT_DIR$/../react-akkafsm/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="43" column="57" lean-forward="true" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmArticulo.scala" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmPrograma.scala" />
+    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/spatutorial/shared/Api.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../quitar/react-akkafsm/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmPartida.scala-backup2" />
+    <entry file="file://$PROJECT_DIR$/../quitar/react-akkafsm/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmDatosGrales.scala" />
+    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/spatutorial/shared/TodoItem.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="424" lean-forward="true" selection-start-line="424" selection-end-line="424" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/Settings.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/SPAMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="69" column="69" lean-forward="true" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../quitar/react-akkafsm/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/frmPartida.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="52" column="131" selection-start-line="52" selection-start-column="130" selection-end-line="52" selection-end-column="131" />
+          <folding>
+            <element signature="e#35#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/modules/MainMenu.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#36#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/spatutorial/client/components/Bootstrap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/controllers/Application.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sicapnewv2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>SBT: aopalliance:aopalliance:1.0:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

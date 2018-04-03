@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.akka-js:akkajsactor_sjs0.6_2.12:1.2.5.9:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.akka-js/akkajsactor_sjs0.6_2.12/jars/akkajsactor_sjs0.6_2.12-1.2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.akka-js/akkajsactor_sjs0.6_2.12/srcs/akkajsactor_sjs0.6_2.12-1.2.5.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

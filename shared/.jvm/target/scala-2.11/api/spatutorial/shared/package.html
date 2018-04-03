@@ -1,0 +1,750 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>shared - spatutorial.shared</title>
+          <meta name="description" content="shared - spatutorial.shared" />
+          <meta name="keywords" content="shared spatutorial.shared" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../lib/template.js"></script>
+      <script type="text/javascript" src="../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../index.html';
+            var hash = 'spatutorial.shared.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../lib/package_big.png" />
+        <p id="owner"><a href="../package.html" class="extype" name="spatutorial">spatutorial</a></p>
+        <h1>shared</h1><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">shared</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="spatutorial.shared.ActiveID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ActiveIDextendsProductwithSerializable"></a>
+      <a id="ActiveID:ActiveID"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ActiveID.html"><span class="name">ActiveID</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="programa">programa: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@ActiveIDextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Api" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ApiextendsAnyRef"></a>
+      <a id="Api:Api"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Api.html"><span class="name">Api</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@ApiextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Articulo" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ArticuloextendsProductwithSerializable"></a>
+      <a id="Articulo:Articulo"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Articulo.html"><span class="name">Articulo</span></a><span class="params">(<span name="cve_articulo">cve_articulo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="descripcion">descripcion: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="unidad">unidad: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="presentacion">presentacion: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Int">Int</span>] = <span class="symbol">None</span></span>, <span name="unid_med_pres">unid_med_pres: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="partida">partida: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="clave_cabms">clave_cabms: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="cb">cb: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Boolean">Boolean</span>] = <span class="symbol">None</span></span>, <span name="iva">iva: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Double">Double</span>] = <span class="symbol">None</span></span>, <span name="baja">baja: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Boolean">Boolean</span>] = <span class="symbol">None</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@ArticuloextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Calendario" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CalendarioextendsProductwithSerializable"></a>
+      <a id="Calendario:Calendario"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Calendario.html"><span class="name">Calendario</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fecha_junta_aclaraciones">fecha_junta_aclaraciones: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;&quot;)</span></span>, <span name="hora_junta_aclaraciones">hora_junta_aclaraciones: <a href="Hora.html" class="extype" name="spatutorial.shared.Hora">Hora</a> = <span class="symbol">Hora(hora = &quot;&quot;)</span></span>, <span name="observacion_junta_aclaraciones">observacion_junta_aclaraciones: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fecha_apertura_tecnica">fecha_apertura_tecnica: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;&quot;)</span></span>, <span name="hora_apertura_tecnica">hora_apertura_tecnica: <a href="Hora.html" class="extype" name="spatutorial.shared.Hora">Hora</a> = <span class="symbol">Hora(hora = &quot;&quot;)</span></span>, <span name="observacion_aper_tecnica">observacion_aper_tecnica: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fecha_apertura_economica">fecha_apertura_economica: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;&quot;)</span></span>, <span name="hora_apertura_economica">hora_apertura_economica: <a href="Hora.html" class="extype" name="spatutorial.shared.Hora">Hora</a> = <span class="symbol">Hora(hora = &quot;&quot;)</span></span>, <span name="observacion_aper_econ">observacion_aper_econ: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fecha_fallo">fecha_fallo: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;&quot;)</span></span>, <span name="hora_fallo">hora_fallo: <a href="Hora.html" class="extype" name="spatutorial.shared.Hora">Hora</a> = <span class="symbol">Hora(hora = &quot;&quot;)</span></span>, <span name="observacion_fallo">observacion_fallo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fecha_firma_contrato">fecha_firma_contrato: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;&quot;)</span></span>, <span name="hora_firma_contrato">hora_firma_contrato: <a href="Hora.html" class="extype" name="spatutorial.shared.Hora">Hora</a> = <span class="symbol">Hora(hora = &quot;&quot;)</span></span>, <span name="observacion_firma_contrato">observacion_firma_contrato: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fecha_inicio_disponible_base">fecha_inicio_disponible_base: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;&quot;)</span></span>, <span name="fecha_final_disponible_base">fecha_final_disponible_base: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;&quot;)</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@CalendarioextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.DatosGralesRequisicion" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DatosGralesRequisicionextendsProductwithSerializable"></a>
+      <a id="DatosGralesRequisicion:DatosGralesRequisicion"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="DatosGralesRequisicion.html"><span class="name">DatosGralesRequisicion</span></a><span class="params">(<span name="cve_oficina">cve_oficina: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="folio">folio: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="fecha">fecha: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;&quot;)</span></span>, <span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="ejercicio_presupuestal">ejercicio_presupuestal: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="fuente_financiamiento">fuente_financiamiento: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="programa">programa: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="destino">destino: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="observaciones">observaciones: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@DatosGralesRequisicionextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.DescripcionCompra" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DescripcionCompraextendsProductwithSerializable"></a>
+      <a id="DescripcionCompra:DescripcionCompra"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="DescripcionCompra.html"><span class="name">DescripcionCompra</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="concepto">concepto: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="descripcion">descripcion: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@DescripcionCompraextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.DetPedido" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DetPedidoextendsProductwithSerializable"></a>
+      <a id="DetPedido:DetPedido"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="DetPedido.html"><span class="name">DetPedido</span></a><span class="params">(<span name="no_pedido">no_pedido: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="compra">compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;PEDI&quot;</span></span>, <span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">2017</span></span>, <span name="fecha_pedido">fecha_pedido: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cve_articulo">cve_articulo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cantidad">cantidad: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="precio">precio: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0.0</span></span>, <span name="anexo">anexo: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">Some(&quot;&quot;)</span></span>, <span name="marcas">marcas: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">Some(&quot;&quot;)</span></span>, <span name="año">año: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">2017</span></span>, <span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="modelo">modelo: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">Some(&quot;&quot;)</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@DetPedidoextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.DetPedidoAlmacen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DetPedidoAlmacenextendsProductwithSerializable"></a>
+      <a id="DetPedidoAlmacen:DetPedidoAlmacen"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="DetPedidoAlmacen.html"><span class="name">DetPedidoAlmacen</span></a><span class="params">(<span name="no_pedido">no_pedido: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="compra">compra: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span></span>, <span name="partida">partida: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="descripcion_partida">descripcion_partida: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="cve_articulo">cve_articulo: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="descripcion_articulo">descripcion_articulo: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="unidad">unidad: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="cantidad">cantidad: <span class="extype" name="scala.Int">Int</span></span>, <span name="iva">iva: <span class="extype" name="scala.Int">Int</span></span>, <span name="precio">precio: <span class="extype" name="scala.Double">Double</span></span>, <span name="marcas">marcas: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>, <span name="anexo">anexo: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>, <span name="subtotal">subtotal: <span class="extype" name="scala.Double">Double</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@DetPedidoAlmacenextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.DetallePedido" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DetallePedidoextendsProductwithSerializable"></a>
+      <a id="DetallePedido:DetallePedido"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="DetallePedido.html"><span class="name">DetallePedido</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="no_pedido">no_pedido: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="compra">compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="partida">partida: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="descripcion_partida">descripcion_partida: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cve_articulo">cve_articulo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="descripcion_articulo">descripcion_articulo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="unidad">unidad: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="iva">iva: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="cantidad">cantidad: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="precio">precio: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0.0</span></span>, <span name="subtotal">subtotal: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0.0</span></span>, <span name="iva_Monto">iva_Monto: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0.0</span></span>, <span name="total">total: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0.0</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@DetallePedidoextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Dia_Inhabil" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Dia_InhabilextendsProductwithSerializable"></a>
+      <a id="Dia_Inhabil:Dia_Inhabil"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Dia_Inhabil.html"><span class="name">Dia_Inhabil</span></a><span class="params">(<span name="fecha">fecha: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;01/01/2017&quot;)</span></span>, <span name="observacion">observacion: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@Dia_InhabilextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.EnviarAlmacen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EnviarAlmacenextendsProductwithSerializable"></a>
+      <a id="EnviarAlmacen:EnviarAlmacen"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="EnviarAlmacen.html"><span class="name">EnviarAlmacen</span></a><span class="params">(<span name="no_pedido">no_pedido: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="compra">compra: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span></span>, <span name="fechaAprobado">fechaAprobado: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;01/01/2017&quot;</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@EnviarAlmacenextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Fechas" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FechasextendsProductwithSerializable"></a>
+      <a id="Fechas:Fechas"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Fechas.html"><span class="name">Fechas</span></a><span class="params">(<span name="fecha">fecha: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@FechasextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Fuente" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FuenteextendsProductwithSerializable"></a>
+      <a id="Fuente:Fuente"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Fuente.html"><span class="name">Fuente</span></a><span class="params">(<span name="fuente">fuente: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="descripcion">descripcion: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="observaciones">observaciones: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@FuenteextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Hora" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="HoraextendsProductwithSerializable"></a>
+      <a id="Hora:Hora"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Hora.html"><span class="name">Hora</span></a><span class="params">(<span name="hora">hora: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@HoraextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.LastID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LastIDextendsProductwithSerializable"></a>
+      <a id="LastID:LastID"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="LastID.html"><span class="name">LastID</span></a><span class="params">(<span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="lastID">lastID: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@LastIDextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Licitante" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LicitanteextendsProductwithSerializable"></a>
+      <a id="Licitante:Licitante"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Licitante.html"><span class="name">Licitante</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cve_provedor">cve_provedor: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="razon_social">razon_social: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="propietario">propietario: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="calle">calle: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="colonia">colonia: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="delegacion">delegacion: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="cp">cp: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="ciudad">ciudad: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="telefonos">telefonos: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="fax">fax: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="folio">folio: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@LicitanteextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.ListadoBienes" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ListadoBienesextendsProductwithSerializable"></a>
+      <a id="ListadoBienes:ListadoBienes"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ListadoBienes.html"><span class="name">ListadoBienes</span></a><span class="params">(<span name="items">items: <span class="extype" name="scala.Seq">Seq</span>[<a href="RenglonListBienes.html" class="extype" name="spatutorial.shared.RenglonListBienes">RenglonListBienes</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@ListadoBienesextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Oficina" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="OficinaextendsProductwithSerializable"></a>
+      <a id="Oficina:Oficina"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Oficina.html"><span class="name">Oficina</span></a><span class="params">(<span name="clave">clave: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="descripcion">descripcion: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="firma">firma: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cargo">cargo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@OficinaextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.OficioPresupuesto" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="OficioPresupuestoextendsProductwithSerializable"></a>
+      <a id="OficioPresupuesto:OficioPresupuesto"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="OficioPresupuesto.html"><span class="name">OficioPresupuesto</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="numero">numero: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fecha">fecha: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;01/01/2017&quot;)</span></span>, <span name="fecha_recibido">fecha_recibido: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;01/01/2017&quot;)</span></span>, <span name="observaciones">observaciones: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@OficioPresupuestoextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Partida" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PartidaextendsProductwithSerializable"></a>
+      <a id="Partida:Partida"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Partida.html"><span class="name">Partida</span></a><span class="params">(<span name="cve_partida">cve_partida: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="descripcion">descripcion: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="observaciones">observaciones: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="presupuesto">presupuesto: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Double">Double</span>] = <span class="symbol">None</span></span>, <span name="activo">activo: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Boolean">Boolean</span>] = <span class="symbol">None</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@PartidaextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.PartidaAnexo" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PartidaAnexoextendsProductwithSerializable"></a>
+      <a id="PartidaAnexo:PartidaAnexo"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PartidaAnexo.html"><span class="name">PartidaAnexo</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="partida">partida: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="descripcion">descripcion: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@PartidaAnexoextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Pedido" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PedidoextendsProductwithSerializable"></a>
+      <a id="Pedido:Pedido"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Pedido.html"><span class="name">Pedido</span></a><span class="params">(<span name="no_pedido">no_pedido: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="compra">compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">2017</span></span>, <span name="rfc_dependencia">rfc_dependencia: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;SES890417TX8&quot;</span></span>, <span name="fecha_pedido">fecha_pedido: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;&quot;)</span></span>, <span name="cve_provedor">cve_provedor: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cve_depto">cve_depto: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cve_presup">cve_presup: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fecha_entrega">fecha_entrega: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="no_sol_compra">no_sol_compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="tipo_compra">tipo_compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="destino">destino: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="elaboro">elaboro: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="iva">iva: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">true</span></span>, <span name="capturo">capturo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cancelado">cancelado: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Boolean">Boolean</span>] = <span class="symbol">None</span></span>, <span name="obsercancel">obsercancel: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="ejercicio_presupuesto">ejercicio_presupuesto: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">2017</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@PedidoextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Pedido2" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Pedido2extendsProductwithSerializable"></a>
+      <a id="Pedido2:Pedido2"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Pedido2.html"><span class="name">Pedido2</span></a><span class="params">(<span name="no_pedido">no_pedido: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="compra">compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">2017</span></span>, <span name="rfc_dependencia">rfc_dependencia: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;SES890417TX8&quot;</span></span>, <span name="fecha_pedido">fecha_pedido: <span class="extype" name="scala.Long">Long</span> = <span class="symbol">0L</span></span>, <span name="cve_provedor">cve_provedor: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cve_depto">cve_depto: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cve_presup">cve_presup: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fecha_entrega">fecha_entrega: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="no_sol_compra">no_sol_compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="tipo_compra">tipo_compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="destino">destino: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="elaboro">elaboro: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="iva">iva: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">true</span></span>, <span name="capturo">capturo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cancelado">cancelado: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Boolean">Boolean</span>] = <span class="symbol">None</span></span>, <span name="obsercancel">obsercancel: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="ejercicio_presupuesto">ejercicio_presupuesto: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">2017</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@Pedido2extendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.PedidoAlmacen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PedidoAlmacenextendsProductwithSerializable"></a>
+      <a id="PedidoAlmacen:PedidoAlmacen"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PedidoAlmacen.html"><span class="name">PedidoAlmacen</span></a><span class="params">(<span name="no_pedido">no_pedido: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="compra">compra: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="fecha_pedido">fecha_pedido: <span class="extype" name="java.sql.Date">Date</span></span>, <span name="tipo_compra">tipo_compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cve_depto">cve_depto: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="destino">destino: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cve_provedor">cve_provedor: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="razon_social">razon_social: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="programa">programa: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="descripcion_programa">descripcion_programa: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="fuente_financiamiento">fuente_financiamiento: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="descripcion_fuente">descripcion_fuente: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@PedidoAlmacenextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.PedidoId" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PedidoIdextendsProductwithSerializable"></a>
+      <a id="PedidoId:PedidoId"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PedidoId.html"><span class="name">PedidoId</span></a><span class="params">(<span name="no_pedido">no_pedido: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="compra">compra: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@PedidoIdextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Presentacion" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PresentacionextendsProductwithSerializable"></a>
+      <a id="Presentacion:Presentacion"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Presentacion.html"><span class="name">Presentacion</span></a><span class="params">(<span name="unidad">unidad: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="presentacion">presentacion: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Double">Double</span>]</span>, <span name="unidad_present">unidad_present: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>, <span name="observaciones">observaciones: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@PresentacionextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Proceso" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ProcesoextendsProductwithSerializable"></a>
+      <a id="Proceso:Proceso"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Proceso.html"><span class="name">Proceso</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fecha">fecha: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;&quot;)</span></span>, <span name="memo">memo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="destino">destino: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cveOficina">cveOficina: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="tipoCompra">tipoCompra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="iva">iva: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">true</span></span>, <span name="plazo">plazo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;30 DIAS HABILES&quot;</span></span>, <span name="elaboro">elaboro: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fechaPedido">fechaPedido: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;01/01/2017&quot;)</span></span>, <span name="fin">fin: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">true</span></span>, <span name="programa">programa: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="rfcDependencia">rfcDependencia: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="folio">folio: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">2017</span></span>, <span name="ejercicioPresupuestal">ejercicioPresupuestal: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">2017</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@ProcesoextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Programa" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ProgramaextendsProductwithSerializable"></a>
+      <a id="Programa:Programa"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Programa.html"><span class="name">Programa</span></a><span class="params">(<span name="programa">programa: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="descripcion">descripcion: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="destino">destino: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="depto">depto: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;1221&quot;</span></span>, <span name="mostrar">mostrar: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">true</span></span>, <span name="rfc_dependencia">rfc_dependencia: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;SES890417TX8&quot;</span></span>, <span name="nivel">nivel: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;ESTATAL&quot;</span></span>, <span name="encargado">encargado: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="activo">activo: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">true</span></span>, <span name="fuente_financiamiento">fuente_financiamiento: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@ProgramaextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.ProvLicitante" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ProvLicitanteextendsProductwithSerializable"></a>
+      <a id="ProvLicitante:ProvLicitante"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ProvLicitante.html"><span class="name">ProvLicitante</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="rfc">rfc: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="plazo">plazo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="pago">pago: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="garantia">garantia: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="todo">todo: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>, <span name="descalificado">descalificado: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@ProvLicitanteextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Proveedor" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ProveedorextendsProductwithSerializable"></a>
+      <a id="Proveedor:Proveedor"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Proveedor.html"><span class="name">Proveedor</span></a><span class="params">(<span name="cve_provedor">cve_provedor: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="razon_social">razon_social: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="propietario">propietario: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="calle">calle: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="colonia">colonia: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="delegacion">delegacion: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="cp">cp: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="ciudad">ciudad: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="telefonos">telefonos: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="fax">fax: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="observaciones">observaciones: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="activo">activo: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">true</span></span>, <span name="elaboro">elaboro: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="giro">giro: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="descuento">descuento: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@ProveedorextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.QryPedidoDatosGrales" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="QryPedidoDatosGralesextendsProductwithSerializable"></a>
+      <a id="QryPedidoDatosGrales:QryPedidoDatosGrales"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="QryPedidoDatosGrales.html"><span class="name">QryPedidoDatosGrales</span></a><span class="params">(<span name="no_pedido">no_pedido: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="compra">compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;PEDI&quot;</span></span>, <span name="ejercicio">ejercicio: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">2017</span></span>, <span name="fecha_pedido">fecha_pedido: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;&quot;)</span></span>, <span name="fecha_entrega">fecha_entrega: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="elaboro">elaboro: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cve_depto">cve_depto: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="destino">destino: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="programa">programa: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="fuente">fuente: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="no_sol_compra">no_sol_compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="tipo_compra">tipo_compra: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="proveedor">proveedor: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="calle">calle: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="colonia">colonia: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="ciudad">ciudad: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="telefonos">telefonos: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="cancelado">cancelado: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Boolean">Boolean</span>] = <span class="symbol">None</span></span>, <span name="obsercancel">obsercancel: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="ejercicio_presupuesto">ejercicio_presupuesto: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">2017</span></span>, <span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@QryPedidoDatosGralesextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Renglon" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RenglonextendsProductwithSerializable"></a>
+      <a id="Renglon:Renglon"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Renglon.html"><span class="name">Renglon</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="programa">programa: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="renglon">renglon: <span class="extype" name="scala.Int">Int</span></span>, <span name="cve_articulo">cve_articulo: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="memo">memo: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="entrega">entrega: <span class="extype" name="scala.Int">Int</span></span>, <span name="cantidad">cantidad: <span class="extype" name="scala.Int">Int</span></span>, <span name="anexo">anexo: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="marca">marca: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="modelo">modelo: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="cancelado">cancelado: <span class="extype" name="scala.Boolean">Boolean</span></span>, <span name="tipo">tipo: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@RenglonextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.RenglonDictamen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RenglonDictamenextendsProductwithSerializable"></a>
+      <a id="RenglonDictamen:RenglonDictamen"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="RenglonDictamen.html"><span class="name">RenglonDictamen</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="rfc">rfc: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="razon_social">razon_social: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="renglon">renglon: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="cve_articulo">cve_articulo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="descripcion">descripcion: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="unidad">unidad: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cantidad">cantidad: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="precio">precio: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0.0</span></span>, <span name="importe">importe: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0.0</span></span>, <span name="minimo">minimo: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0.0</span></span>, <span name="precio_referencia">precio_referencia: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0.0</span></span>, <span name="incremento">incremento: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0.0</span></span>, <span name="descalificado">descalificado: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>, <span name="precio_index">precio_index: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0.0</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@RenglonDictamenextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.RenglonListBienes" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RenglonListBienesextendsProductwithSerializable"></a>
+      <a id="RenglonListBienes:RenglonListBienes"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="RenglonListBienes.html"><span class="name">RenglonListBienes</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="renglon">renglon: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>, <span name="programa">programa: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cve_articulo">cve_articulo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="descripcion">descripcion: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="unidad">unidad: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cantidad">cantidad: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@RenglonListBienesextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Seguimiento" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SeguimientoextendsProductwithSerializable"></a>
+      <a id="Seguimiento:Seguimiento"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Seguimiento.html"><span class="name">Seguimiento</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="elaboro">elaboro: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="pedido">pedido: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="fecha">fecha: <a href="Fechas.html" class="extype" name="spatutorial.shared.Fechas">Fechas</a> = <span class="symbol">Fechas(fecha = &quot;01/01/2017&quot;)</span></span>, <span name="tipo_compra">tipo_compra: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="compra">compra: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="no_sol_compra">no_sol_compra: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="cve_presup">cve_presup: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>, <span name="dias">dias: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cotizaciones">cotizaciones: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Int">Int</span>] = <span class="symbol">None</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@SeguimientoextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.TotalCotizacion" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TotalCotizacionextendsProductwithSerializable"></a>
+      <a id="TotalCotizacion:TotalCotizacion"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="TotalCotizacion.html"><span class="name">TotalCotizacion</span></a><span class="params">(<span name="id_comparativo">id_comparativo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="rfc">rfc: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="razon_social">razon_social: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="monto">monto: <span class="extype" name="scala.Double">Double</span> = <span class="symbol">0</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@TotalCotizacionextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="spatutorial.shared.Usuarios" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="UsuariosextendsProductwithSerializable"></a>
+      <a id="Usuarios:Usuarios"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Usuarios.html"><span class="name">Usuarios</span></a><span class="params">(<span name="usuario">usuario: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="contraseña">contraseña: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="tipo">tipo: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="nombre">nombre: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="area">area: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="activo">activo: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">true</span></span>, <span name="nivel">nivel: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@UsuariosextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="spatutorial.shared.Event" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Event"></a>
+      <a id="Event:Event"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Event$.html"><span class="name">Event</span></a><span class="result"> extends <span class="extype" name="scala.Enumeration">Enumeration</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#spatutorial.shared.package@Event" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

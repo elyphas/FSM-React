@@ -1,0 +1,46 @@
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:51:19: value %%% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "com.lihaoyi" %%% "autowire" % versions.autowire,[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:52:17: value %%% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "io.suzaku" %%% "boopickle" % versions.booPickle,[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:83:41: value %%% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "com.github.japgolly.scalajs-react" %%% "core" % versions.scalajsReact,[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:84:41: value %%% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "com.github.japgolly.scalajs-react" %%% "extra" % versions.scalajsReact,[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:86:36: value %%% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "com.github.japgolly.scalacss" %%% "ext-react" % versions.scalaCSS,[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:87:17: value %%% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "io.suzaku" %%% "diode" % versions.diode,[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:88:17: value %%% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "io.suzaku" %%% "diode-react" % versions.diode,[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:89:20: value %%% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "org.scala-js" %%% "scalajs-dom" % versions.scalaDom,[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:90:19: value %%% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "com.lihaoyi" %%% "utest" % versions.uTest % Test//,[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:96:52: value / is not a member of sbt.librarymanagement.ModuleID[0m
+[0m[[0m[31merror[0m] [0m[0m    "org.webjars.bower" % "react" % versions.react / "react-with-addons.js" minified "react-with-addons.min.js" commonJSName "React",[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:97:52: value / is not a member of sbt.librarymanagement.ModuleID[0m
+[0m[[0m[31merror[0m] [0m[0m    "org.webjars.bower" % "react" % versions.react / "react-dom.js" minified "react-dom.min.js" dependsOn "react-with-addons.js" commonJSName "ReactDOM",[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:98:48: value / is not a member of sbt.librarymanagement.ModuleID[0m
+[0m[[0m[31merror[0m] [0m[0m    "org.webjars.bower" % "pdfmake" % "0.1.31" / "pdfmake.js" minified "pdfmake.min.js" commonJSName "pdfmake",[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:100:48: value / is not a member of sbt.librarymanagement.ModuleID[0m
+[0m[[0m[31merror[0m] [0m[0m    "org.webjars" % "jquery" % versions.jQuery / "jquery.js" minified "jquery.min.js",[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:101:54: value / is not a member of sbt.librarymanagement.ModuleID[0m
+[0m[[0m[31merror[0m] [0m[0m    "org.webjars" % "bootstrap" % versions.bootstrap / "bootstrap.js" minified "bootstrap.min.js" dependsOn "jquery.js",[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/elyphas/Projs/sicap/project/Settings.scala:103:56: value / is not a member of sbt.librarymanagement.ModuleID[0m
+[0m[[0m[31merror[0m] [0m[0m    "org.webjars" % "log4javascript" % versions.log4js / "js/log4javascript_uncompressed.js" minified "js/log4javascript.js"/*,[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m15 errors found[0m

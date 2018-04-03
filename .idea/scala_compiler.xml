@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="incrementalityType" value="SBT" />
+    <profile name="SBT 1" modules="sicapnewv2,sicap,sharedJVM" />
+    <profile name="SBT 2" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:scalajs:mapSourceURI:file:/home/elyphas/TestProject/sicapNewV2/client/src/main/scala/-&gt;e3971e20f516e1a994e7/" />
+        <parameter value="-Xlint" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.11.11/jars/scalajs-compiler_2.11.11-0.6.18.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 3" modules="server">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Xlint" />
+      </parameters>
+    </profile>
+    <profile name="SBT 4" modules="">
+      <parameters>
+        <parameter value="-P:scalajs:mapSourceURI:file:/home/elyphas/TestProject/sicapNewV2/shared/src/main/scala/-&gt;00109806c47a512196c9/" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.11.11/jars/scalajs-compiler_2.11.11-0.6.18.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 1" modules="client">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:scalajs:mapSourceURI:file:/home/elyphas/Projs/sicap/client/src/main/scala/-&gt;0949fba35d131feb912a/" />
+        <parameter value="-Xlint" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.4/jars/scalajs-compiler_2.12.4-0.6.22.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 2" modules="sharedJS">
+      <parameters>
+        <parameter value="-P:scalajs:mapSourceURI:file:/home/elyphas/Projs/sicap/shared/src/main/scala/-&gt;3c58308c79790bab5805/" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.4/jars/scalajs-compiler_2.12.4-0.6.22.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
